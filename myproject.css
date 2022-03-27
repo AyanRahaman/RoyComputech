@@ -1,0 +1,378 @@
+
+.div{
+    background-color: #13CE9C;      /*this is for first blank color in hedaing part*/
+    padding: 5px;
+    
+}
+.menubar{                       /*for design menu bar*/
+    text-align: left;
+    display: inline-flex;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.menubar ul{                    /*for design menu bar*/
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li{                 /*for design menu bar*/
+    width: 150px;
+}
+.menubar ul li a{               /*for design menu bar*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+.menubar ul li a:hover {          /*for design menu bar*/
+    border: 2px gray solid;
+    background-color: tomato;
+}
+/*.sub-menu1{
+    display: none;
+}
+.menubar ul li:hover .sub-menu1{
+    display: block;
+    position: fixed;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.menubar ul li .sub-menu1 ul{
+    display: block;
+    margin: 20px;
+}
+.menubar ul li .sub-menu1 ul li{
+    width: 185px;
+    padding: 2px;
+    text-align: left;
+} */
+.srch{                                      /*for design search box*/
+    background: transparent;
+    width: 300px;
+    padding: 20px;
+    margin-top: 5px;
+    padding: 15px;
+    border: 2px black solid;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+    
+}
+.btn{                               /*for design search button*/
+    width:100px;
+    margin-top: 5px;
+    padding: 20px;
+    background: #ff7200;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    color: white;
+    padding: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+.btn:focus{                          /*for design search button*/
+    outline: none;
+}
+.srch:focus{                        /*for design search box*/
+    outline: none;
+}
+.marquee{                           /*for design marquee tag part*/
+    background-color: yellow;
+    padding: 5px;
+    color: red;
+}
+.photo{                             /*for design photo blur background photo*/
+    background-image: url("myproject.jpg");
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    -webkit-filter: blur(8px);
+    border: 1px black solid;
+}
+.bg-text{                       /*for design blur background text*/
+    
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 2px grey solid;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+}
+.learning_teaching{                 /*for design learning and teaching button*/
+    text-align: center;
+    display: inline-flex;
+    padding: 5px;
+}
+.learning_teaching ul{              /*for design learning and teaching button*/
+    display: inline-flex;
+    list-style: none;
+}
+.learning_teaching ul li{           /*for design learning and teaching button*/
+    width: 200px;
+}
+.learning_teaching ul li a{               /*for design learning and teaching button*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px  ;
+    color: white;
+}
+#start_learning{                        /*start learning button design*/
+    border: 2px green solid;
+    border-radius: 25px;
+}
+#start_teaching{                        /*for design start teching button*/
+    border: 2px green solid;
+    border-radius: 25px;
+}
+#start_learning:hover{              /*for making hover on start learning button*/
+    background-color: tomato;
+}
+#start_teaching:hover{              /*for making hover effect on start teaching button*/
+    background-color: tomato;
+}
+.itsi{                              /*for using industrial training nad internship part start*/
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: green;
+}
+#class{                                 /*for design class/online/it part*/
+    background-color: whitesmoke;
+    border: 3px green solid;
+    color: green;
+    padding: 5px;
+    text-align: center;
+    font-weight: initial;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+#Programming-Langauages{                /*for design webdevelopment,programming language,mobile app development*/
+    background-color: skyblue;
+    border: 1px black solid;
+    text-align: center;
+    padding: 5px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.column {                   /*for design each and every column of cards*/
+    float: left;
+    width: 22%;
+    padding: 5px;
+    height: 250px;
+    margin: 10px; 
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.row:after {            /*for design each and every card*/
+    content: "";
+    display: table;
+    clear: both;
+}
+#teachers{              /*for paragraph tag in card*/
+    font-size: 25px;
+}
+.certificate{                   /*certificate genuine (marquee and background yellow)*/
+    color: red;
+    background-color: yellow;
+    padding: 5px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+#DivLeft{               /*left div (background color #1cbeb4)*/
+    background-color:#1cbeb4;
+    width: 49%;
+    float: left;
+    height: 400px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    
+}
+#DivRight{                      /*div right (registration form)*/
+    background-color:#1cbeb4;
+    width: 49%;
+    float: left;
+    height: 400px;
+    margin-left: 10px;
+}
+#blogs{                     /*view our blog part*/
+    background-color: blue;
+    border: 2px grey solid;
+    padding: 12px;
+    margin-left: 630px;
+    margin-right: 630px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+}
+#blogs a{                           /*view our blogs part start*/
+    color: white;
+    text-decoration: none;
+}
+#blogs:hover{                       /*view our blogs part*/
+    background-color:  tomato;   
+}
+#enroll{                             /*text of div left part*/
+    margin-top: 150px;
+    text-align: center;
+    font-style: italic;
+}
+#reguistration_from{            /*to design registration form*/
+    color: white;
+    margin-top: 75px;
+    margin-left: 190px;
+}
+.input{                         /*to design every input box-*/
+    padding: 7px;
+    padding-right: 160px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left:100px;
+}
+.input:hover{                           /*to make hover effect  every input box*/ 
+    background-color: rgb(136, 41, 41);
+    color: white;
+}
+#LeftDiv{                               /*to use second left div part*/
+    background-color: white;
+    float: left;
+    width: 49%;
+    height: 500px;
+}
+#RightDiv{                              /*to design second right div part*/
+        background-color: white;
+        float: left;
+        width: 49%;
+        height: 500px;
+
+}
+#register{                          /*to design register button*/
+    background-color: blue;
+    text-align: center;
+    border: 1px grey solid;
+    margin-left: 220px;
+    margin-right: 420px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 7px;
+    font-style: italic;
+}
+#register a{                            /*to design register button*/
+    color: white;
+    text-decoration: none;
+    
+}
+#register:hover{                        /*to make hoover effect register button*/
+    background-color: tomato;
+}
+#paragraph_tag{                         /*to design the left div text*/
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    font-style: inherit;
+}
+img{                                     /* to adjust the image part*/
+   height: 450px;
+   width: 550px;
+   margin-left: 100px;
+}
+#browse-video{                          /*for design the brwse-video part*/
+    border: 1px grey solid;
+    background-color: #1cbeb4;
+    margin-left: 120px;
+    margin-right: 450px;
+    padding-left: 10px;
+    padding: 12px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}                       
+#browse-video a{                            /*for design the browse-video part*/
+    text-decoration: none;
+    color: white;
+}
+#browse-video:hover{                         /*for making hover of this part*/
+    background-color: tomato;
+} 
+/*
+#image{                         //for making the imgage part disining//
+    width: 100%;
+
+}*/
+
+/*.blank-background{                    /* for making blank bacjground
+    background-image: url(myproject3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}*/
+.div_Right{                         /*making a right part*/
+        background-color: #27292c;
+        float: left;
+        width: 49%;
+        height: 400px;
+}
+.div_Left{                      /*making a left part start*/
+    background-color: #27292c;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+#asutosh{                   /*left div paragrapg part*/
+    margin-left: 10px;
+    color: white;
+}
+#paragraph_part{
+    color:  rgba(255,255,255,.7);
+    margin-left: 10px;
+    
+}
+#write_something{
+    margin-left: 30px;
+    color: white;
+}
+#paragraph_part2{
+    margin-left: 30px;
+    margin-right: 10px;
+    color: rgba(255,255,255,.7);
+} 
+/*.blackdiv{
+    background-color: #27292c;
+    color: rgba(255,255,255,.7);
+} */
+#font{
+    font-weight: bold;
+}
+
+
